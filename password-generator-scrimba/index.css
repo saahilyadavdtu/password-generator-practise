@@ -1,7 +1,32 @@
 body {
     margin: 0;
-    background:  #1F2937;
-    ;
-
+    background: black;
 
 }
+
+#main{
+    background:  #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    font-size : 12px;
+    font-weight: 300;
+    color: white;
+}
+
+#input-el{
+    display: flex;
+}
+
+label{
+    color : white;
+    font-size : 8px;
+    font-weight: 300;
+}
+
+/* input {
+    flex : 1
+} */
