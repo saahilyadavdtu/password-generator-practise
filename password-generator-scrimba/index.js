@@ -145,3 +145,7 @@ document.addEventListener("click", function (e) {
     navigator.clipboard.writeText(passkey2);
   }
 });
+
+
+
+

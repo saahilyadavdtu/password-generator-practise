@@ -6,9 +6,16 @@ body {
 
 #main{
     background:  #1F2937;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height : 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
 }
 
 p{
@@ -30,3 +37,8 @@ label{
 /* input {
     flex : 1
 } */
+span{
+    margin-bottom: 0px;
+    padding-bottom : 0px;
+
+}
